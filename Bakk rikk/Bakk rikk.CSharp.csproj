@@ -75,11 +75,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\CameraSwitch.cs" />
     <Compile Include="Assets\Scripts\HoleControl.cs" />
     <Compile Include="Assets\Scripts\LifeTrackerScript.cs" />
     <Compile Include="Assets\Scripts\MakeBall.cs" />
     <Compile Include="Assets\Scripts\MoveBall.cs" />
     <Compile Include="Assets\Scripts\RotateField.cs" />
+    <Compile Include="Assets\Scripts\SpawnManyBalls.cs" />
     <Compile Include="Assets\Scripts\VictoryHoleControl.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
