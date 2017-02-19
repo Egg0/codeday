@@ -8,7 +8,7 @@ public class HoleControl : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
         //  Destroy(other.gameObject);
-        SceneManager.LoadScene("scene0");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 
