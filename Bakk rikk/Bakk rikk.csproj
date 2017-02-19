@@ -75,13 +75,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraController.cs" />
-    <Compile Include="Assets\HoleControl.cs" />
-    <Compile Include="Assets\MakeBall.cs" />
-    <Compile Include="Assets\MoveBall.cs" />
-    <Compile Include="Assets\RotateField.cs" />
-    <Compile Include="Assets\RotatePlatform.cs" />
-    <Compile Include="Assets\VictoryHoleControl.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\HoleControl.cs" />
+    <Compile Include="Assets\Scripts\MakeBall.cs" />
+    <Compile Include="Assets\Scripts\MoveBall.cs" />
+    <Compile Include="Assets\Scripts\RotateField.cs" />
+    <Compile Include="Assets\Scripts\VictoryHoleControl.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
